@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+section {
+    padding: 30px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    padding: 8px 0;
+}
+
+.booking form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking input,
+.booking textarea {
+    margin-bottom: 12px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
